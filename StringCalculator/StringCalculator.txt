@@ -1,0 +1,26 @@
+﻿String Calculator ist eine Unterstufen Kata ähnlich der Kata FizzBuzz, sie soll weiteres Grundwissen über Interfaces 
+und das Prüfen von Daten vermitteln. Gegeben ist ein Interface mit der Funktion "int Add(string numbers)", dieses 
+Interface soll nun von Ihnen implementiert werden. Ziel dieser Funktion ist es alle Zahlen aus dem Parameter "numbers"
+zu summieren und zurückliefern.
+
+
+Aufgabe:
+
+- Implementierung des Interface mit der Funktion "int Add(string numbers)"
+- Der string "numbers" kann bis zu 5 Zahlen enthalten die durch Komma separiert sind
+- Diese Funktion soll so stabil wie möglich sein und falsch Zahlen/Formatierung ignorieren
+- Ungültige oder leere Werte sind als 0 zu behandeln
+
+Beispiele:
+
+Eingabe: "1,2,3" Ausgabe: 6
+Eingabe: "" Ausgabe: 0
+Eingabe: "1, " Ausgabe: 1
+Eingabe: abc,2 Ausgabe: 2
+
+
+
+Erweiterungen:
+
+- Die Funktion Add soll mit unendlich vielen Zahlen umgehen können. Beispiel: Eingabe: "1.2.3.4.5.6.7.8.9" Ausgabe: 45
+- Der Seperator soll durch den Benutzer geändert werden können. Beispiel: Eingabe "1#2#3" Ausgabe: 6

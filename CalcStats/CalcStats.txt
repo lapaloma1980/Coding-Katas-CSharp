@@ -1,0 +1,15 @@
+﻿Berechnen Sie bestimmte Werte von Sequenzen.
+
+Aufgabe:
+
+- Min, Max, Summe und Durchschnitt
+- Versuchen Sie die Berechnung dynamisch oder es sehr erweiterbar zu gestallten.
+
+
+Beispiele:
+
+Werte: 1, -1, 2, -2, 6, 9, 15, -2, 92, 11
+Eingabe: "Min" Ausgabe: -2
+Eingabe: "Max" Ausgabe: 92
+Eingabe: "Sum" Ausgabe: 131
+Eingabe: "Average " Ausgabe: 13.1

@@ -1,0 +1,15 @@
+﻿Im heute verwendeten Gregorianischen Kalender kommen drei Schaltregeln
+zur Anwendung und Sie sollen damit Schaltjahre automatisch berechnen.
+
+Aufgabe:
+
+- Ein Jahr ist ein Schaltjahr, wenn es restlos durch 4 teilbar ist.
+- Falls sich die Jahrzahl durch 100 restlos teilen lässt, ist es kein Schaltjahr.
+- Falls auch eine Teilung durch 400 ganzzahlig möglich ist, dann ist es ein Schaltjahr.
+
+Beispiel:
+
+2013: false
+2001: false
+1996: true
+1992: true
